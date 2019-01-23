@@ -18,6 +18,8 @@ class Terminal:
         "Q": "pgdn",
         "R": "ins",
         "S": "del",
+        "s": "jump_left",
+        "t": "jump_right",
     }
 
     ansi_ctrl_codes = {

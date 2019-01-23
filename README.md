@@ -2,11 +2,14 @@
 
 ### Command line tools
 
-- add history for search
+- avoid crash because of premature get position
+  - buffer unexpected input, read until end of position
 
 - add prompt to readline
+  - everything for "complete line" will be up to prompt only
 
 - later: add read_line with notion of token
+  - find next space or endline
   - can be used for navigatable drop-down menu
 
 - Finish autocomplete
